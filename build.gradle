@@ -26,3 +26,7 @@ jar {
 		attributes 'Main-Class': 'com.github.zi_jing.qqrobot.Main'
 	}
 }
+
+tasks.withType(JavaCompile) {
+	options.encoding = "UTF-8"
+}
